@@ -12,10 +12,10 @@
          url('../fonts/sourcesanspro-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
+body{
+    font-family: 'source_sans_proextralight';
+}
 footer{
     font-family: 'source_sans_proextralight' !important;
 
