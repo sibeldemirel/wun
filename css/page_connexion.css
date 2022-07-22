@@ -104,10 +104,8 @@ h1{ display:flex;
     border-radius: 20px;
     padding-bottom: 30px;
 }
-.bg-img
-{
-    
-    background-image:url('../Images/foret.jpg');
+
+    /* background-image:url('../Images/foret.jpg');
     background-position: center;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -117,7 +115,7 @@ h1{ display:flex;
     left: 0;
     min-width: 100%;
     min-height: 100%;
-}
+} */
 .contacts{
     display: flex;
     flex-direction: row;
