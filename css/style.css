@@ -2,9 +2,7 @@ html {
 font-family: 'source_sans_proextralight';
 }
 
-body{
-    background-color: antiquewhite
-}
+
 
 @font-face {
     font-family: 'source_sans_proextralight';
@@ -14,7 +12,9 @@ body{
     font-style: normal;
 
 }
-
+body{
+    font-family: 'source_sans_proextralight';
+}
 
 #header{
     display: flex;
