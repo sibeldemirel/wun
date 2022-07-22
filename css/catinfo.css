@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'source_sans_proextralight';
+    src: url('../fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 30px;
+    font-family: 'source_sans_proextralight'
+}
+
 /* @font-face {
     font-family: 'extralight';
     src: url('./fonts/finlandica-italic-variablefont_wght-webfont.woff2') format('woff2'),
