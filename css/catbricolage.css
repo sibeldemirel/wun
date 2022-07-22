@@ -26,12 +26,13 @@
       margin-bottom: 50px;
   }
   
-  .cat_info{
+  .cat_brico{
       display: flex;
       align-items: flex-end;
       justify-content: space-around;
   }
-  
+
+
   .imagecentraleinfo{
       /* width: 50%; */
       display: flex;
