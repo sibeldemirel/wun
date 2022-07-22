@@ -96,7 +96,7 @@ h1{
     color: green;
     opacity: 0.5;
 }
-.bg-img
+/* .bg-img
 {
     background-image:url('../Images/foret.jpg');
     background-position: center;
@@ -108,7 +108,7 @@ h1{
     left: 0;
     min-width: 100%;
     min-height: 100%;
-}
+} */
 
 .contacts{
     display: flex;
