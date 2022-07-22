@@ -83,6 +83,7 @@ h1{
 }
 
 .left_block:hover{
+    transform: scale(1.1);
     color: green;
     opacity: 0.5;
 }
@@ -99,6 +100,7 @@ h1{
 }
 
 .right_block:hover{
+    transform: scale(1.1);
     color: green;
     opacity: 0.5;
 }
