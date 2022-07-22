@@ -1,9 +1,17 @@
 @font-face {
-    font-family: 'extralight';
-    src: url('./fonts/finlandica-italic-variablefont_wght-webfont.woff2') format('woff2'),
-         url('./fonts/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-family: 'source_sans_proextralight';
+    src: url('../fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 30px;
+    font-family: 'source_sans_proextralight'
 }
 
 body{ 
@@ -12,14 +20,13 @@ body{
   
 }
 
-#header{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-}
+
+
+
 
 .search_bar{
     border-radius: 100px;
+    width:250px;
 }
 
 .loupe{
@@ -40,19 +47,18 @@ h1{ display:flex;
     justify-content: center;
 }
 
+
 .pbienvenue{
     display:flex;
     justify-content: center;
 }
 
 .connexion{
-    border: solid black 3px;
     flex-direction: column;
     display: flex;
     align-items: center;
-    width: 85%;
-    /* margin-left: 300px; */
-    border-radius: 20px;
+    width: 100%;
+
 }
 
 .mail{
@@ -95,14 +101,15 @@ h1{ display:flex;
 
 .modal{
     background-color: white;
-    border: solid black 3px;
-    width: 30%;
+    border: solid black 2px;
+    width: 40%;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
     padding-bottom: 30px;
+    border-style: double;
 }
 
 .contacts{
@@ -113,20 +120,10 @@ h1{ display:flex;
 }
 
 
-@font-face {
-    font-family: 'source_sans_proextralight';
-    src: url('../fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'),
-         url('../fonts/sourcesanspro-extralight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
 footer{
     z-index: 50;
     font-family: 'source_sans_proextralight' !important;
-
+    margin-top: 30px;
 }
 
 
