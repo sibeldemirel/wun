@@ -1,11 +1,3 @@
-.contacts{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-
-
 @font-face {
     font-family: 'source_sans_proextralight';
     src: url('../fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'),
@@ -13,23 +5,33 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'source_sans_proextralight';
+}
+
+
 body{
     font-family: 'source_sans_proextralight';
 }
+
+
 footer{
     font-family: 'source_sans_proextralight' !important;
 
 }
 
-
 .reseaux{
+    font-family: 'source_sans_proextralight';
     text-align: justify;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
-
 
 .res1{
     height: 50px;
