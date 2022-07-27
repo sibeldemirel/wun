@@ -6,6 +6,8 @@
     font-style: normal;
 
 }
+
+
 #header{
     display: flex;
     justify-content: space-between;
@@ -13,6 +15,7 @@
     margin-bottom: 30px;
     font-family: 'source_sans_proextralight'
 }
+
 
 .contacts{
     display: flex;
@@ -26,10 +29,12 @@
     font-family: 'source_sans_proextralight' !important;
 }
 
+
 footer{
     font-family: 'source_sans_proextralight' !important;
     margin-top: 10%;
 }
+
 
 .form{
     margin-left: 40px;
@@ -48,13 +53,37 @@ h3{
     font-weight: bold;
 }
 
+
 header{
-    font-family: 'source_sans_proextralight'
+    font-family: 'source_sans_proextralight';
 }
 
+
 .navbar{
-    font-family: 'source_sans_proextralight'
+    font-family: 'source_sans_proextralight';
+    box-shadow:outset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+
 }
+
+
+.nav-link{
+    color: rgb(89, 86, 86);
+    font-size: large;
+    
+}
+
+
+.dropdown-item{
+    font-family: 'source_sans_proextralight';
+    
+}
+
+
+#navbardrop{
+    margin-left: 30px;
+}
+
 
 .reseaux{
     text-align: justify;

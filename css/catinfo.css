@@ -39,6 +39,8 @@ body{
 .h3cat{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .cat_info{
@@ -55,6 +57,7 @@ justify-content: flex-end;
 }
 
 .btncta{
+<<<<<<< HEAD
     /* background-color: #1B512D;
     color: white;
     border-radius: 10px;
@@ -78,6 +81,22 @@ justify-content: flex-end;
       padding:6px 24px;
       text-decoration:none;
       text-shadow:0px 1px 0px #ffffff;
+=======
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    background-color:#ededed;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777777;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+>>>>>>> 9ed11944e1613e92b264c9fa6d44855205d5a60d
 }
 
 .btncta:hover{
