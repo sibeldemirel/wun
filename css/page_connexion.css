@@ -27,7 +27,7 @@ body{
 .search_bar{
     border-radius: 100px;
     width:250px;
-
+    height: 30px;
 }
 
 .loupe{
@@ -123,9 +123,9 @@ h1{ display:flex;
 
 
 footer{
-    z-index: 50;
     font-family: 'source_sans_proextralight' !important;
     margin-top: 30px;
+    z-index: 50;
 }
 
 
