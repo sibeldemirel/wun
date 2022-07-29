@@ -20,9 +20,12 @@ body{
     float: right;
     }
 
+    
 .identite{
     margin: 20px;
 }
+
+
 .carte{
     border: solid 1px black;
     width: 50%;
@@ -31,6 +34,8 @@ body{
     padding:10px;
     margin-left:25%;
 }
+
+
 textarea{
     border-radius: 10px;
    
