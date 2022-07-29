@@ -107,10 +107,10 @@ p{
 
 footer{
     font-family: 'source_sans_proextralight' !important;
-    display: flex;
     background-color: white ;
+
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     margin-top: 11% !important;
 }
@@ -121,7 +121,6 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
-    
 }
 
 
