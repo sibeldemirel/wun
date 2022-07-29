@@ -38,6 +38,7 @@ h2
 .search_bar{
     border-radius: 100px;
     width:250px;
+    height: 30px;
 }
 
 .loupe{

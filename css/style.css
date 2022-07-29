@@ -1,6 +1,7 @@
-*
 html {
-font-family: 'source_sans_proextralight';
+margin:0 ;
+padding: 0;
+font-family: 'source_sans_proextralight'; 
 }
 
 @font-face {
@@ -33,7 +34,9 @@ h1{
     justify-content: space-between;
     margin: 10px 20px 10px 20px;
 }
-
+.logo{
+    border-radius: 50px;
+}
 .search_bar{
     border-radius: 100px;
     width: 250px;
@@ -105,21 +108,19 @@ p{
 footer{
     font-family: 'source_sans_proextralight' !important;
     background-color: white ;
-    display: flex;
+
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     margin-top: 11% !important;
 }
-
 
 .reseaux{
     text-align: justify;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items:center;
-    
 }
 
 
