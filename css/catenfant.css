@@ -127,3 +127,25 @@ footer{
     border-radius: 15px;
     margin-right: 10px;
 }
+
+/* .pop{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    color: #777777 !important;
+    background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    font-family:'source_sans_proextralight';
+}
+
+.btn:hover{
+    background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+  }
+
+  .btn:active {
+	position:relative;
+	top:1px;
+  } */
